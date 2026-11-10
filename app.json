@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "RGB IR Remote",
+    "slug": "rgb-ir-remote",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "android": {
+      "package": "com.rgbir.remote",
+      "permissions": [
+        "android.permission.TRANSMIT_IR"
+      ]
+    },
+    "plugins": [
+      "./plugins/withIrBlaster.js"
+    ]
+  }
+}
